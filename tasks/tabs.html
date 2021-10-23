@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="../assets/javascript/build/style.css">
+    <link rel="stylesheet" href="../assets/fonts/font.css">
+
+    <title>Tabs</title>
+</head>
+<body>
+<!--
+    Сверстать табы https://www.figma.com/file/l3Ew6VvR3SwaITQqJdpCPi/Tabs?node-id=2%3A22
+
+    <p>
+    Сверстать <a href="https://www.figma.com/file/l3Ew6VvR3SwaITQqJdpCPi/Tabs?node-id=2%3A22" target="_blank">табы</a>
+</p>
+-->
+
+<div class="container tabs d-flex align-items-center justify-content-center">
+    <div class="row align-items-center justify-content-center">
+
+        <ul class="col-lg-8 col-md-10 col-sm-12 nav nav-tabs" id="nav">
+            <li class="nav-item">
+                <a class="nav-link active" role="button" data-toggle="tab" aria-current="page" href="#news">Новини</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#comments" role="button" data-toggle="tab" aria-expanded="false">Виступи та коментарі</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#announcements" role="button" data-toggle="tab" aria-expanded="false">Анонси</a>
+            </li>
+        </ul>
+
+        <div class="col-lg-8 col-md-10 col-sm-12 tab-content">
+            <div class="tab-pane fade show active" id="news">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-sm-10 img">
+                        <img src="../assets/img/news.png" alt="news" class="justify-content-center align-items-center img-thumbnail">
+                    </div>
+                    <div class="col-lg-9 col-md-8 col-sm-10 news">
+                        <div class="main-news-list">
+                            <p>
+                                <a href="#">Мінцифри збирається навчити 6 мільйонів українців цифрових навичок за 3 роки
+                                </a>
+                            </p>
+                            <span class="date">1 година тому</span>
+                        </div>
+                        <div class="main-news-list">
+                            <p>
+                                <a href="#">Мінсоцполітики: Для громадян з порушенням слуху забезпечена можливість 
+                                звернутися на «гарячу лінію» 1539 з допомогою послуги сурдоперекладача
+                                </a>
+                            </p>
+                        <span class="date">3 години тому</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script src="../assets/vendor/jquery-3.5.1/jquery-3.5.1.min.js"></script>
+<script src="../assets/vendor/bootstrap-4.5.0/bootstrap.min.js"></script>
+
+</body>
+</html>
